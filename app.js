@@ -1,5 +1,5 @@
 // app.js
-const app = require('../server/src/middleware/middleware');
+const app = require('./src/middleware/middleware');
 const databaseConfig = require('./src/config/database');
 const userRoutes = require('./src/routes/userRoutes');
 require("dotenv").config();
